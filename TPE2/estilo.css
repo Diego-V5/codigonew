@@ -1,0 +1,435 @@
+body{
+  background-image: url("http://svite-league-apps-content.s3.amazonaws.com/bgimages/blue-slate.jpg"); 
+}
+@media only screen and (max-width: 600px) {
+     
+  
+  
+  .caja {
+    
+   
+    height: auto;
+      
+      padding:3%;
+      border:5%;
+      border-style: dashed;
+      border-color: darkcyan;
+      color:white;
+      line-height:250% ;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    .caja h1{
+      font-size:5vw;
+      text-decoration: underline;
+    }
+    .caja li{
+  font-size:4vw;
+    }
+    table, td, tr {
+      border: 1px solid  ;
+      border-collapse: collapse;
+     
+    }
+  
+    table{
+        width: 20%;
+        display: inline;
+        padding:3%;
+    }
+    
+    
+    .Caja2 {
+      width: 60%;
+      height: auto;
+      margin: 40px;
+      padding: 1.5%;
+      border: 10px;
+      border-style: dashed;
+      border-color:gold;
+      
+      color:white;
+      line-height:29px;
+      font-size:20px;
+      border-left-color: aqua;
+      border-right-color: aqua;
+     
+  }
+  .tituloprincipal {
+    display:flex;
+
+    
+  }
+  .tituloprincipal p {
+      color:white;
+      font-size:10vw;
+      font-family:monospace;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      word-spacing:-10px;
+      
+      
+   
+    }
+    
+    .infopadel {
+      color:white;
+      line-height:230%;
+      text-align:justify;
+      border:silver solid 1px;
+      padding: 2%;
+      font-size: 4vw;
+      
+      
+    }
+    .infopadel h3 {
+      text-decoration: underline;
+    }
+    .infopadel h2 {
+      text-decoration: underline;
+    }
+    
+      
+  
+  
+    
+    .a1{
+      color:white;
+    font-size:30px;
+  text-align:left;
+  font-weight: bolder;
+  
+  }
+    
+   .tabla th {color:gold;}
+   .tabla td{color: white;} 
+   .tabla p {color:white;
+            font-size:30px;}
+  
+   .topnav {
+     clear: both;
+    background-color: #333;
+     overflow: hidden;
+     
+    }
+  
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;}
+    
+      .topnav a.active {
+        background-color: #4CAF50;
+        color: white;
+      }
+    .linkwpt p {
+      color:gold;
+      font-size:25px;
+    }
+    .linkwpt {
+      
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height:auto;
+    }
+  .linkwpt a img{
+    width: 100%;
+  }
+  
+    .fuente  {
+      padding:2%;
+      
+    }
+    .fuente a {
+      color:chocolate;
+      font-size:35px;
+    }
+    
+    .mapa{
+      padding:1%;
+      display:none;
+      
+    }
+    
+    .capt{
+      background-color:grey;
+      width: 300px;
+      height:100px;
+      float: right;
+      
+    }
+    
+    #mainCaptcha{
+      position: relative;
+      left : 60px;
+      top: 5px;
+      
+    }
+    
+    #refresh{
+      position:relative;
+      left:230px;
+      width:30px;
+      height:30px;
+      bottom:45px;
+      background-image: url(img/nuevo.png);
+    }
+    
+    #txtInput, #Button1{
+      position: relative;
+      left:40px;
+      bottom: 40px;
+    }
+    .pcaptcha{
+      display:none;
+    }
+    .formula{
+      color: white;
+    }
+    .ver {
+      visibility: visible;
+      color: white;
+      background-color: blue;
+      }
+      
+     
+      table {
+        border-collapse: collapse;
+        color:white;
+        width:40%;
+        font-size:20px;
+        
+    
+      }
+      table, th, td {
+        border: 1px solid gold;
+        padding:10px;
+      }
+      tr:hover {background-color: #99ccff;}
+      
+      .titTabla {
+        color:white;
+        font-size: 30px;
+      }
+    .botones{
+      display:block;
+      
+    }
+    
+    
+    }
+    
+
+
+
+
+
+
+
+@media only screen and (min-width: 601px) {
+
+
+.caja {
+  display:block;
+  width: 30%;
+    height: 350px;
+    margin: 40px;
+    padding: 20px;
+    border: 10px;
+    border-style: dashed;
+    border-color: darkcyan;
+    color:white;
+    line-height:50px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .caja h1{
+    font-size:40px;
+    text-decoration: underline;
+  }
+  .caja li{
+font-size:20px;
+  }
+  
+  
+
+ 
+  
+  .Caja2 {
+    width: 60%;
+    height: 270px;
+    margin: 40px;
+    padding: 1.5%;
+    border: 10px;
+    border-style: dashed;
+    border-color:gold;
+    float:left;
+    color:white;
+    line-height:29px;
+    font-size:20px;
+    border-left-color: aqua;
+    border-right-color: aqua;
+    display:inline;
+}
+  
+.tituloprincipal p {
+    color:white;
+    font-size:50px;
+    font-family:monospace;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    word-spacing:-10px;
+    
+ 
+  }
+  
+  .infopadel {
+    color:white;
+    line-height:230%;
+    text-align:justify;
+    border:silver solid 1px;
+    padding: 2%;
+  }
+  .infopadel h3 {
+    text-decoration: underline;
+  }
+  .infopadel h2 {
+    text-decoration: underline;
+  }
+  
+    
+
+
+  
+  .a1{
+    color:white;
+  font-size:30px;
+text-align:left;
+font-weight: bolder;
+
+}
+  
+ 
+
+ .topnav {
+   clear: both;
+  background-color: #333;
+   overflow: hidden;
+   
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;}
+  
+    .topnav a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+  .linkwpt p {
+    color:gold;
+    font-size:25px;
+  }
+  .linkwpt {
+    padding:10px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .fuente  {
+    padding:2%;
+    
+  }
+  .fuente a {
+    color:chocolate;
+    font-size:35px;
+  }
+  
+  .mapa{
+    padding:1%;
+    display:inline;
+    
+  }
+  
+  .capt{
+    background-color:grey;
+    width: 300px;
+    height:100px;
+    float: right;
+    
+  }
+  
+  #mainCaptcha{
+    position: relative;
+    left : 60px;
+    top: 5px;
+    
+  }
+  
+  #refresh{
+    position:relative;
+    left:230px;
+    width:30px;
+    height:30px;
+    bottom:45px;
+    background-image: url(img/nuevo.jpg);
+  }
+  
+  #txtInput, #Button1{
+    position: relative;
+    left:40px;
+    bottom: 40px;
+  }
+  .pcaptcha{
+    color: white;
+    float:right;
+    margin-top: 30px;
+  }
+  .formula{
+    color: white;
+  }
+  
+  table {
+    border-collapse: collapse;
+    color:white;
+    width:40%;
+    font-size:20px;
+    
+
+  }
+  table, th, td {
+    border: 1px solid gold;
+    padding:10px;
+  }
+  tr:hover {background-color: #99ccff;}
+  
+  .titTabla {
+    color:white;
+    font-size: 40px;
+  }
+  .botones{
+    display:block;
+  }
+ .completa_tabla {
+   color:white;
+ }
+ 
+  }
+
+  
+  
